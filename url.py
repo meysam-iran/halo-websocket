@@ -1,4 +1,4 @@
 import urllib.parse
-url = 'wss://example.com/somepage/?'
-params = {'var1': 'some data', 'var2': 1337}
+url = 'wss://localhost:8765'
+params = {'var1': 'lh = 8765', 'var2': 1337}
 print(url + urllib.parse.urlencode(params))
